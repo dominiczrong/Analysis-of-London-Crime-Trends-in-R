@@ -5,12 +5,12 @@ date: "06/07/2020"
 output: github_document
 ---
 ##Installing Relevant R Packages
-```{r setup, include=FALSE}
-install.packages("rpart.plot")
-install.packages("randomForest")
-install.packages("ggplot2")
-install.packages('gbm')
-install.packages('psych')
+```{r setup, include=TRUE}
+install.packages("rpart.plot",repos = "http://cran.us.r-project.org")
+install.packages("randomForest",repos = "http://cran.us.r-project.org")
+install.packages("ggplot2",repos = "http://cran.us.r-project.org")
+install.packages('gbm',repos = "http://cran.us.r-project.org")
+install.packages('psych',repos = "http://cran.us.r-project.org")
 ```
 
 ##Reading the Dataset into R
