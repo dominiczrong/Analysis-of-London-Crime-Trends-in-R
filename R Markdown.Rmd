@@ -2,8 +2,7 @@
 title: "Analysis of London Crime Trends"
 author: "dominiczrong"
 date: "06/07/2020"
-output: html_document:
-  keep_md: true
+output: github_document
 ---
 ##Installing Relevant R Packages
 ```{r setup, include=FALSE}
