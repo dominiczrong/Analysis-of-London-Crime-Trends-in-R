@@ -2,7 +2,8 @@
 title: "Analysis of London Crime Trends"
 author: "dominiczrong"
 date: "06/07/2020"
-output: html_document
+output: html_document:
+  keep_md: true
 ---
 ##Installing Relevant R Packages
 ```{r setup, include=FALSE}
