@@ -18,4 +18,4 @@ Methods of Analysis:
 7. Random Forest
 8. Boosting
 
-Accuracy of Models is determined by whether a method has managed to reduce the Mean-Squared Residual Error (MSRE) of the previous model.
+Evaluating the Accuracy of Models is determined by which method has managed to reduce the Mean-Squared Residual Error (MSRE) of the previous model by the most amount.
